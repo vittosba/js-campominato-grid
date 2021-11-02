@@ -1,0 +1,38 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header .left {
+    display: flex;
+    align-items: center;
+}
+
+header .left img {
+    height: 3rem;
+    margin-right: 10px;
+}
+
+main {
+    flex-grow: 1;
+    background: #7FFFD4;
+}
+
+footer {
+    padding: 1rem;
+}
