@@ -28,9 +28,34 @@ header .left img {
     margin-right: 10px;
 }
 
-main {
+.wrap-grid {
     flex-grow: 1;
     background: #7FFFD4;
+}
+
+.wrap-grid h2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.square.clicked {
+    background: #6495ED;
 }
 
 footer {
